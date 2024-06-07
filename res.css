@@ -1,0 +1,105 @@
+@media only screen and (min-width:320px) and (max-width: 425px)
+{
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'REM', Courier, monospace;
+    }
+    
+    html, body
+    {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container
+    {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(199, 94, 94);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .footer
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 10px;
+    }
+    
+    .panel
+    {
+        background-color: white;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .btop
+    {
+        width: 100%;
+        height: 50px;
+        background-color: green;
+        color: white;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    
+    .elem
+    {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 10px;
+    }
+    
+    .box
+    {
+        width: 30px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-weight: 500;
+    }
+    
+    .pdwn
+    {
+        height: calc(100% - 50px);
+        background-color: white;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .pdwn h3
+{
+    color: black;
+    font-size: 14px;
+}
+    
+    .bubu
+    {
+        width: 50px;
+        height: 50px;
+        background-color: aqua;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+}
